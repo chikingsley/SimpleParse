@@ -1,0 +1,242 @@
+{
+    "object": "database",
+    "id": "11b0e615-9a90-807e-a8d5-c41ecbecd12e",
+    "cover": null,
+    "icon": {
+        "type": "emoji",
+        "emoji": "⚡"
+    },
+    "created_time": "2024-10-10T09:56:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "b6359363-c427-404b-a207-677134293ec6"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "b6359363-c427-404b-a207-677134293ec6"
+    },
+    "last_edited_time": "2024-11-10T18:29:00.000Z",
+    "title": [
+        {
+            "type": "text",
+            "text": {
+                "content": "ALL ADVERTISERS | Kitchen",
+                "link": null
+            },
+            "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+            },
+            "plain_text": "ALL ADVERTISERS | Kitchen",
+            "href": null
+        }
+    ],
+    "description": [],
+    "is_inline": false,
+    "properties": {
+        "Buying Deals (no filter)": {
+            "id": "%3BBa%5E",
+            "name": "Buying Deals (no filter)",
+            "type": "formula",
+            "formula": {
+                "expression": "join({{notion:block_property:gvBR:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},\"\\n\\n\")"
+            }
+        },
+        "all geos": {
+            "id": "%3DFK%3B",
+            "name": "all geos",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "GEO",
+                "relation_property_name": "🥮 Kitchen FUNNELS",
+                "rollup_property_id": "{kQ~",
+                "relation_property_id": "~xSf",
+                "function": "show_unique"
+            }
+        },
+        "Status": {
+            "id": "%3FDKq",
+            "name": "Status",
+            "type": "status",
+            "status": {
+                "options": [
+                    {
+                        "id": "54bd1acf-f844-4467-acab-3a652da250f8",
+                        "name": "Need to Contact",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "35414cab-2807-40f6-b143-95b4d298b732",
+                        "name": "📖 Opened Chat",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "f4cb0d44-a2cb-4973-9095-7234a665f4dd",
+                        "name": "Active Deals",
+                        "color": "green",
+                        "description": null
+                    }
+                ],
+                "groups": [
+                    {
+                        "id": "6dd24496-186c-4c8a-803f-a66c5b031ca7",
+                        "name": "To-do",
+                        "color": "gray",
+                        "option_ids": [
+                            "54bd1acf-f844-4467-acab-3a652da250f8"
+                        ]
+                    },
+                    {
+                        "id": "2cf2d398-1271-4e5c-940d-8fdddacbf195",
+                        "name": "In progress",
+                        "color": "blue",
+                        "option_ids": [
+                            "35414cab-2807-40f6-b143-95b4d298b732"
+                        ]
+                    },
+                    {
+                        "id": "ad33ed36-1670-483a-b317-8f97a24532be",
+                        "name": "Complete",
+                        "color": "green",
+                        "option_ids": [
+                            "f4cb0d44-a2cb-4973-9095-7234a665f4dd"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Main Contact": {
+            "id": "G%3BBY",
+            "name": "Main Contact",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "BRAND | selling deals available ": {
+            "id": "KdQX",
+            "name": "BRAND | selling deals available ",
+            "type": "formula",
+            "formula": {
+                "expression": "join(\n  filter(\n    {{notion:block_property:bUn%3F:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},\n    not(contains(current, \"dead\"))\n  ),\n  \"\\n\\n\"\n)"
+            }
+        },
+        "buying deals available ": {
+            "id": "N%5BcQ",
+            "name": "buying deals available ",
+            "type": "formula",
+            "formula": {
+                "expression": "join(\n  filter(\n    {{notion:block_property:gvBR:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},\n    not(contains(current, \"dead\"))\n  ),\n  \"\\n\\n\"\n)"
+            }
+        },
+        "Selling Deals (no filter)": {
+            "id": "QB%7Df",
+            "name": "Selling Deals (no filter)",
+            "type": "formula",
+            "formula": {
+                "expression": "join({{notion:block_property:Q~o%3C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},\"\\n\\n\")"
+            }
+        },
+        "text gen for selling": {
+            "id": "Q~o%3C",
+            "name": "text gen for selling",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "for selling text | network",
+                "relation_property_name": "🥮 Kitchen FUNNELS",
+                "rollup_property_id": "JZV]",
+                "relation_property_id": "~xSf",
+                "function": "show_original"
+            }
+        },
+        "GEOs Available": {
+            "id": "TrRO",
+            "name": "GEOs Available",
+            "type": "formula",
+            "formula": {
+                "expression": "join({{notion:block_property:%3DFK%3B:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},\", \")"
+            }
+        },
+        "text gen for selling | BRAND": {
+            "id": "bUn%3F",
+            "name": "text gen for selling | BRAND",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "for selling text gen | brand",
+                "relation_property_name": "🥮 Kitchen FUNNELS",
+                "rollup_property_id": "mvP}",
+                "relation_property_id": "~xSf",
+                "function": "show_original"
+            }
+        },
+        "text gen for buying": {
+            "id": "gvBR",
+            "name": "text gen for buying",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "for buying text gen",
+                "relation_property_name": "🥮 Kitchen FUNNELS",
+                "rollup_property_id": "aFJM",
+                "relation_property_id": "~xSf",
+                "function": "show_original"
+            }
+        },
+        "Deduction % | Advertiser": {
+            "id": "hTsJ",
+            "name": "Deduction % | Advertiser",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "Payment Fee": {
+            "id": "k%7DoG",
+            "name": "Payment Fee",
+            "type": "number",
+            "number": {
+                "format": "percent"
+            }
+        },
+        "NETWORK | selling deals available": {
+            "id": "wX%7CY",
+            "name": "NETWORK | selling deals available",
+            "type": "formula",
+            "formula": {
+                "expression": "join(\n  filter(\n    {{notion:block_property:Q~o%3C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},\n    not(contains(current, \"dead\"))\n  ),\n  \"\\n\\n\"\n)"
+            }
+        },
+        "🥮 Kitchen FUNNELS": {
+            "id": "~xSf",
+            "name": "🥮 Kitchen FUNNELS",
+            "type": "relation",
+            "relation": {
+                "database_id": "11b0e615-9a90-80ce-8fcd-f3d53053cf31",
+                "type": "dual_property",
+                "dual_property": {
+                    "synced_property_name": "⚡ ALL ADVERTISERS | Kitchen",
+                    "synced_property_id": "oLx%60"
+                }
+            }
+        },
+        "Name": {
+            "id": "title",
+            "name": "Name",
+            "type": "title",
+            "title": {}
+        }
+    },
+    "parent": {
+        "type": "page_id",
+        "page_id": "11b0e615-9a90-80f6-b745-e0dc9a0a39dc"
+    },
+    "url": "https://www.notion.so/11b0e6159a90807ea8d5c41ecbecd12e",
+    "public_url": null,
+    "archived": false,
+    "in_trash": false,
+    "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
+    "request_id": "057ba925-81ea-4f82-a3c7-f12d81711d3b"
+}

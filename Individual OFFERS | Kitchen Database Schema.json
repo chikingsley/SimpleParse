@@ -1,0 +1,1549 @@
+{
+    "object": "database",
+    "id": "11b0e615-9a90-80ce-8fcd-f3d53053cf31",
+    "cover": {
+        "type": "external",
+        "external": {
+            "url": "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1637.jpg"
+        }
+    },
+    "icon": {
+        "type": "emoji",
+        "emoji": "🥮"
+    },
+    "created_time": "2024-10-10T09:13:00.000Z",
+    "created_by": {
+        "object": "user",
+        "id": "b6359363-c427-404b-a207-677134293ec6"
+    },
+    "last_edited_by": {
+        "object": "user",
+        "id": "b6359363-c427-404b-a207-677134293ec6"
+    },
+    "last_edited_time": "2024-11-10T18:29:00.000Z",
+    "title": [
+        {
+            "type": "text",
+            "text": {
+                "content": "Individual OFFERS | Kitchen",
+                "link": null
+            },
+            "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+            },
+            "plain_text": "Individual OFFERS | Kitchen",
+            "href": null
+        }
+    ],
+    "description": [
+        {
+            "type": "text",
+            "text": {
+                "content": "🟡 Network 🟢 Media Buyer",
+                "link": null
+            },
+            "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+            },
+            "plain_text": "🟡 Network 🟢 Media Buyer",
+            "href": null
+        }
+    ],
+    "is_inline": false,
+    "properties": {
+        "CR last week told to us": {
+            "id": "%3AFOo",
+            "name": "CR last week told to us",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "CPA | Buying": {
+            "id": "%3CYOL",
+            "name": "CPA | Buying",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "Deduction % | Advertiser": {
+            "id": "%3CuQk",
+            "name": "Deduction % | Advertiser",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "Deduction % | Advertiser",
+                "relation_property_name": "⚡ ALL ADVERTISERS | Kitchen",
+                "rollup_property_id": "hTsJ",
+                "relation_property_id": "oLx`",
+                "function": "show_original"
+            }
+        },
+        "Tested": {
+            "id": "%3CwY~",
+            "name": "Tested",
+            "type": "formula",
+            "formula": {
+                "expression": "length({{notion:block_property:hLKt:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})!= 0"
+            }
+        },
+        "Priority Status": {
+            "id": "%3DOz%7D",
+            "name": "Priority Status",
+            "type": "checkbox",
+            "checkbox": {}
+        },
+        "Expected CR": {
+            "id": "%3F%7BgP",
+            "name": "Expected CR",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "CPL | Brand | Selling": {
+            "id": "AMZ%40",
+            "name": "CPL | Brand | Selling",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:UuiO:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Y\", if(empty({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), {{notion:block_property:%5DeSU:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, {{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\")"
+            }
+        },
+        "Deduction %": {
+            "id": "CBmn",
+            "name": "Deduction %",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "for selling text | network new funnel": {
+            "id": "Dr%5BN",
+            "name": "for selling text | network new funnel",
+            "type": "formula",
+            "formula": {
+                "expression": "if(not empty({{notion:block_property:GEXs:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),if({{notion:block_property:SHPK:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Dead\", \"☠️\" +\n    {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\", \n        if(not empty({{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n            {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"% OR \" + \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\", \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\"\n        )\n    ) + \"\\nFunnels: \" + join({{notion:block_property:GEXs:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \"), \n\n    \"🤝 \" + {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\", \n        if(not empty({{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n            {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"% OR \" + \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\", \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\"\n        )\n    ) + \"\\nFunnels: \" + join({{notion:block_property:GEXs:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \")\n) \n+ if(length(format({{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})) > 0, \"\\n🚨 Campaign Deduction Allowance: \" + {{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"%\", \"\")\n+ if(length(format({{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})) > 0, \"\\n⚠️ Other notes: \" + {{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \"\"),\"\")\n"
+            }
+        },
+        "CRG | Buying": {
+            "id": "EepM",
+            "name": "CRG | Buying",
+            "type": "number",
+            "number": {
+                "format": "percent"
+            }
+        },
+        "Funnel Change": {
+            "id": "GEXs",
+            "name": "Funnel Change",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "845ba8b3-100e-4b73-9d3e-9c25df18c602",
+                        "name": "Immediate Bitwave",
+                        "color": "green",
+                        "description": null
+                    }
+                ]
+            }
+        },
+        "Geo Checker": {
+            "id": "He%5C%7D",
+            "name": "Geo Checker",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}==format({{notion:block_property:s%7BXz:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),\"✅\",\"❌ Wrong Geo\")"
+            }
+        },
+        "CPA | Network | Selling": {
+            "id": "IzUg",
+            "name": "CPA | Network | Selling",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "PPL | Brand": {
+            "id": "J%40Fe",
+            "name": "PPL | Brand",
+            "type": "formula",
+            "formula": {
+                "expression": "if(empty({{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),{{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}-{{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},{{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}-{{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})"
+            }
+        },
+        "CPL ntwk sell manual": {
+            "id": "JH_Q",
+            "name": "CPL ntwk sell manual",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "for selling text | network": {
+            "id": "JZV%5D",
+            "name": "for selling text | network",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:SHPK:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Dead\", \"☠️\" +\n    {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\", \n        if(not empty({{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n            {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"% OR \" + \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\", \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\"\n        )\n    ) + \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \"), \n\n    \"🤝 \" + {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\", \n        if(not empty({{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n            {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"% OR \" + \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\", \n            format(floor({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\"\n        )\n    ) + \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \")\n) \n+ if(length(format({{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})) > 0, \"\\n🚨 Campaign Deduction Allowance: \" + {{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"%\", \"\")\n+ if(length(format({{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})) > 0, \"\\n⚠️ Other notes: \" + {{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \"\")\n"
+            }
+        },
+        "Active Status`": {
+            "id": "SHPK",
+            "name": "Active Status`",
+            "description": "",
+            "type": "select",
+            "select": {
+                "options": [
+                    {
+                        "id": "8a4839d7-b160-4e57-b061-ad8521599634",
+                        "name": "Active",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "db8faa23-8a33-42ad-8957-4c29f2033c21",
+                        "name": "Dead",
+                        "color": "default",
+                        "description": null
+                    }
+                ]
+            }
+        },
+        "notes for customers": {
+            "id": "Sea%5C",
+            "name": "notes for customers",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "LPD": {
+            "id": "U%3BKr",
+            "name": "LPD",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "CPL too?": {
+            "id": "UuiO",
+            "name": "CPL too?",
+            "type": "select",
+            "select": {
+                "options": [
+                    {
+                        "id": "nXYF",
+                        "name": "Y",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "21ce649b-1949-446d-9755-c9aefa6cd83d",
+                        "name": "N",
+                        "color": "green",
+                        "description": null
+                    }
+                ]
+            }
+        },
+        "CR last week we say": {
+            "id": "VSaW",
+            "name": "CR last week we say",
+            "type": "rich_text",
+            "rich_text": {}
+        },
+        "CPL buy manual": {
+            "id": "WGa%3D",
+            "name": "CPL buy manual",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "PPL | Network": {
+            "id": "XmWr",
+            "name": "PPL | Network",
+            "type": "formula",
+            "formula": {
+                "expression": "if(empty({{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),{{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}-{{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},{{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}-{{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})"
+            }
+        },
+        "filter inactive geos": {
+            "id": "XznX",
+            "name": "filter inactive geos",
+            "type": "formula",
+            "formula": {
+                "expression": "if(last(split({{notion:block_property:title:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},\"-\"))==\"d\",\"true\",\"false\")"
+            }
+        },
+        "Last edited time": {
+            "id": "ZKlI",
+            "name": "Last edited time",
+            "type": "last_edited_time",
+            "last_edited_time": {}
+        },
+        "Final Deduction %": {
+            "id": "%5BfiW",
+            "name": "Final Deduction %",
+            "type": "formula",
+            "formula": {
+                "expression": "if( ({{notion:block_property:CBmn:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == 0),{{notion:block_property:CBmn:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}},if(empty({{notion:block_property:CBmn:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),first({{notion:block_property:%3CuQk:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),{{notion:block_property:CBmn:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}))"
+            }
+        },
+        "CPL brand sell manual": {
+            "id": "%5DeSU",
+            "name": "CPL brand sell manual",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "offer text - funnel/source": {
+            "id": "%60ski",
+            "name": "offer text - funnel/source",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:SHPK:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Dead\", \n    \"☠️ \" + {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \"), \n\n     {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \")\n) \n"
+            }
+        },
+        "for buying text gen": {
+            "id": "aFJM",
+            "name": "for buying text gen",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:SHPK:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Dead\", \"☠️ \", if({{notion:block_property:%3DOz%7D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \"🔝 \", \"⚫️ \")) + \n{{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} +\nif(empty({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\", \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \") + \nif(empty({{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and empty({{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\",\n    if(not empty({{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),\n        {{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" CPL OR \" + {{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format({{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) + \"%\", \n        if(not empty({{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),\n            {{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" CPL\", \n            {{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format({{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) + \"%\"\n        )\n    )\n) +\nif(empty({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\", \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \"))\n"
+            }
+        },
+        "LATAM": {
+            "id": "bqxb",
+            "name": "LATAM",
+            "type": "checkbox",
+            "checkbox": {}
+        },
+        "percent profit brand": {
+            "id": "d%3EuF",
+            "name": "percent profit brand",
+            "type": "formula",
+            "formula": {
+                "expression": "if(\n  empty({{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}),\n  (\n    ({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * {{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} - {{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * {{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) \n    / \n    ({{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * {{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})\n  ),\n  (\n    ({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} - {{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) \n    / \n    {{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}\n  )\n)"
+            }
+        },
+        "™️ ALL AFFILIATES (to sell)": {
+            "id": "eXE%5D",
+            "name": "™️ ALL AFFILIATES (to sell)",
+            "type": "relation",
+            "relation": {
+                "database_id": "11b0e615-9a90-8038-a0f1-fb200379746f",
+                "type": "dual_property",
+                "dual_property": {
+                    "synced_property_name": "🥮 Individual DEALS | Kitchen",
+                    "synced_property_id": "udGv"
+                }
+            }
+        },
+        "Language": {
+            "id": "f%5EA%5C",
+            "name": "Language",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "ab28629a-f946-47f2-8d59-946c51977b88",
+                        "name": "Native",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "71c3c11f-e9b1-41a6-8524-9c4ce29edf2a",
+                        "name": "English",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "4de9924f-0141-445d-94f7-3a290cad483c",
+                        "name": "French",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "e80c6faf-31ca-45f9-a136-0519c01aa4a1",
+                        "name": "Greek",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "b731344e-1c7e-4be2-8bcb-a264b8da88e0",
+                        "name": "German",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "ff081bff-d1ec-4df7-ab69-b06cb4069729",
+                        "name": "Language",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "4e80db5b-5d77-44f0-af88-6dd62143101c",
+                        "name": "en",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "b7550254-a372-43a0-94b0-99332d574216",
+                        "name": "Native|English",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "26fb5ad8-1215-4a62-91e3-24965981ccb9",
+                        "name": "Native/English",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "ead4c9e8-4c37-4eb4-a72c-e27bd6fcc1ce",
+                        "name": "Dutch",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "73deb97e-c58d-49c9-a076-49fc6600142e",
+                        "name": "Cantonese",
+                        "color": "orange",
+                        "description": null
+                    }
+                ]
+            }
+        },
+        "⭐ ALL DEALS | Kitchen": {
+            "id": "hLKt",
+            "name": "⭐ ALL DEALS | Kitchen",
+            "type": "relation",
+            "relation": {
+                "database_id": "11b0e615-9a90-80e3-9356-fa80451493b9",
+                "type": "dual_property",
+                "dual_property": {
+                    "synced_property_name": "🥮 Individual OFFERS | Kitchen",
+                    "synced_property_id": "Y%5EDe"
+                }
+            }
+        },
+        "Advertiser Payment Fee (for text)": {
+            "id": "iBSM",
+            "name": "Advertiser Payment Fee (for text)",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "Payment Fee",
+                "relation_property_name": "⚡ ALL ADVERTISERS | Kitchen",
+                "rollup_property_id": "k}oG",
+                "relation_property_id": "oLx`",
+                "function": "show_original"
+            }
+        },
+        "CRG-PPL% | Network": {
+            "id": "iTGX",
+            "name": "CRG-PPL% | Network",
+            "type": "formula",
+            "formula": {
+                "expression": "round({{notion:block_property:XmWr:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}/({{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})*1000)/1000"
+            }
+        },
+        "Brands 0% fee": {
+            "id": "lAXB",
+            "name": "Brands 0% fee",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:SHPK:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Dead\", \n    \"☠️ \" + {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \n    \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        round({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 1.03 / 5) * 5 + \"+\" + \n        format(floor({{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\", \n        if(not empty({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n            round({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 1.03 / 5) * 5 + \"+\" + \n            format(floor({{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"% OR \" + \n            format(floor({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} *1.03 * 100) / 100) + \" CPL\", \n            format(floor({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 1.03 * 100) / 100) + \" CPL\"\n        )\n    ) + \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \"), \n\n    \"🎆0️⃣ \" + {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \n    \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        round({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 1.03 / 5) * 5 + \"+\" + \n        format(floor({{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\", \n        if(not empty({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n            round({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 1.03 / 5) * 5 + \"+\" + \n            format(floor({{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"% OR \" + \n            format(floor({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} *1.03 * 100) / 100) + \" CPL\", \n            format(floor({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 1.03 * 100) / 100) + \" CPL\"\n        )\n    ) + \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \")\n) \n+ if(not empty({{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n    \"\\n🚨 Campaign Deduction Allowance: \" + {{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"%\", \"\") \n+ if(length(format({{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})) > 0, \n    \"\\n⚠️ Other notes: \" + {{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \"\")\n"
+            }
+        },
+        "CPA | Brand | Selling": {
+            "id": "mrOo",
+            "name": "CPA | Brand | Selling",
+            "type": "number",
+            "number": {
+                "format": "number"
+            }
+        },
+        "for selling text gen | brand": {
+            "id": "mvP%7D",
+            "name": "for selling text gen | brand",
+            "type": "formula",
+            "formula": {
+                "expression": "(if({{notion:block_property:SHPK:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Dead\", \"☠️ \", \"🎆 \") +\n{{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \" + {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \nif(empty({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\", \" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \") +\nif(empty({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and empty({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n    \"\", \n    if(not empty({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}) and not empty({{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n         {{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\" + \" OR \" + \n         format(floor({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\", \n        if(not empty({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n            format(floor({{notion:block_property:AMZ%40:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100) / 100) + \" CPL\", \n            {{notion:block_property:mrOo:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format(floor({{notion:block_property:s%3AAg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 * 100) / 100) + \"%\"\n        )\n    )\n) +\nif(empty({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\", \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \")) +\nif(length(format({{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})) > 0, \"\\n🚨 Campaign Deduction Allowance: \" + {{notion:block_property:%5BfiW:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"%\", \"\")\n) \n+ if(length(format({{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})) > 0, \"\\n⚠️ Other notes: \" + {{notion:block_property:Sea%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \"\")\n"
+            }
+        },
+        "CPL | Buying": {
+            "id": "n%3CIF",
+            "name": "CPL | Buying",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:UuiO:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Y\", if(empty({{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), {{notion:block_property:WGa%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, {{notion:block_property:%3CYOL:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:EepM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\")"
+            }
+        },
+        "CRG | Network | Selling": {
+            "id": "oJ~%3E",
+            "name": "CRG | Network | Selling",
+            "type": "number",
+            "number": {
+                "format": "percent"
+            }
+        },
+        "⚡ ALL ADVERTISERS | Kitchen": {
+            "id": "oLx%60",
+            "name": "⚡ ALL ADVERTISERS | Kitchen",
+            "type": "relation",
+            "relation": {
+                "database_id": "11b0e615-9a90-807e-a8d5-c41ecbecd12e",
+                "type": "dual_property",
+                "dual_property": {
+                    "synced_property_name": "🥮 Kitchen FUNNELS",
+                    "synced_property_id": "~xSf"
+                }
+            }
+        },
+        "CPL-PPL% | Network (1)": {
+            "id": "rOfN",
+            "name": "CPL-PPL% | Network (1)",
+            "type": "formula",
+            "formula": {
+                "expression": "round({{notion:block_property:XmWr:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}/{{notion:block_property:n%3CIF:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*1000)/1000"
+            }
+        },
+        "CRG | Brand | Selling": {
+            "id": "s%3AAg",
+            "name": "CRG | Brand | Selling",
+            "type": "number",
+            "number": {
+                "format": "percent"
+            }
+        },
+        "Main Contact Rollup": {
+            "id": "sBio",
+            "name": "Main Contact Rollup",
+            "type": "rollup",
+            "rollup": {
+                "rollup_property_name": "Main Contact",
+                "relation_property_name": "⚡ ALL ADVERTISERS | Kitchen",
+                "rollup_property_id": "G;BY",
+                "relation_property_id": "oLx`",
+                "function": "show_original"
+            }
+        },
+        "Advertiser Payment Fee": {
+            "id": "ssSD",
+            "name": "Advertiser Payment Fee",
+            "type": "formula",
+            "formula": {
+                "expression": "{{notion:block_property:iBSM:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}"
+            }
+        },
+        "ALL GEOS text gen for selling deals": {
+            "id": "sy%7Ds",
+            "name": "ALL GEOS text gen for selling deals",
+            "type": "formula",
+            "formula": {
+                "expression": "format({{notion:block_property:oLx%60:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})+\" || \"+if({{notion:block_property:SHPK:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Dead\", \n    {{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \"+ {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}+\" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 + \"%\"), \n        {{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" CPL\"\n    ) + \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \")+\"dead\", \"🤝 \"+\n{{notion:block_property:%7BkQ~:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" \"+ {{notion:block_property:f%5EA%5C:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}+\" [\" + join({{notion:block_property:uvt%3D:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \") + \"] \" + \n    if(empty({{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \n        {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \"+\" + format({{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} * 100 + \"%\"), \n        {{notion:block_property:vYLf:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} + \" CPL\"\n    ) + \"\\nFunnels: \" + join({{notion:block_property:uaIg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \", \")\n)"
+            }
+        },
+        "Funnels": {
+            "id": "uaIg",
+            "name": "Funnels",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "hgrf",
+                        "name": "Bitcode Method",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "o>z;",
+                        "name": "Bitcoineer",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "67c97b45-bbad-4d4a-bc09-f183fc4ecd26",
+                        "name": "Variable",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "67b70901-e34a-4e3f-a53f-0ff80eb02637",
+                        "name": "Pemex",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "07ca5f3e-0d45-4c6d-b29c-01310f2a840c",
+                        "name": "Enel",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "9787af8a-b8d2-4907-948d-fae7233a6fa6",
+                        "name": "Wu Capital (rebranded bitcode)",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "f4bc21ef-7700-48eb-8a36-5fa9fb87e75e",
+                        "name": "Movil Capital",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "1a6995b5-1cff-4797-9a05-14569db555f7",
+                        "name": "Rompetrol",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "d2012c48-3e1f-4435-aef9-ad09ae87f7ea",
+                        "name": "Immediate Matrix",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "bbc22110-e3c3-4825-92f3-5ed0ef8d8058",
+                        "name": "Bundeskapital",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "562cd2ca-5abc-4133-9e9d-d94c0c553056",
+                        "name": "InvestireSereno (Rebranded Bitcode)",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "bdf687a5-62f5-4730-bebe-473430bc42fd",
+                        "name": "ItaúInveste",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "5f1ad41e-6966-4bdb-be4b-45c17d06cfea",
+                        "name": "ChatGPT AI",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "341a8463-c627-421d-8b1a-c74c0ac1d698",
+                        "name": "BitGPT App AI",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "ba4d0c59-90f9-41f4-8eb1-a8e0d0ae5285",
+                        "name": "Tepco (rebranded Bitcode)",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "200c7195-5d6e-4838-a2cf-740f9bcf89cd",
+                        "name": "Immediate Profit",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "f0f6f177-58dc-49c5-a8c3-375dcc02aa1a",
+                        "name": "Immediate FLEX",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "ec116a34-be33-4a60-a5d0-6ba91e6021e2",
+                        "name": "Oil Profit / Oil Trade",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "79556b35-a276-41f9-9936-7221bf97c676",
+                        "name": "Quantum Forge",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "d0a415c9-9b28-4a54-aeca-da6ca2dbf375",
+                        "name": "Crypto Momentums",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "b71af967-f342-4223-8dec-af66f4816f89",
+                        "name": "Immediate Core",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "0d56b51e-0225-47dc-82ee-db31ef7d4903",
+                        "name": "Immediate SOLMAR",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "a5350cda-d67d-4c2c-a324-dd5fe4249292",
+                        "name": "Immediate Mix",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "e4be3169-059f-4a68-8c80-c3fd5f2be554",
+                        "name": "Baykar",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "703c367d-5411-4d24-b99e-64dea50e67b6",
+                        "name": "Orlen",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "248c9804-c321-4769-b639-cc387783292d",
+                        "name": "Bitcoin Xact",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "0be61990-0e98-4755-a24c-b039ee0cfd4b",
+                        "name": "Bitcoin AI",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "0d02fe89-e9b2-43be-a339-14b9e580a0bc",
+                        "name": "Immediate Con",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "4e1ee7f8-6ca2-4b14-940e-e800643a7b82",
+                        "name": "Wealth Catalyst AI",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "362d1f8a-f430-42c4-bfe5-a1424370bfd3",
+                        "name": "Impulse Pro AI",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "c8e47130-d0cc-4e91-b8a2-fb7a260bc9e4",
+                        "name": "Fortuna Crescente Oil AI",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "c7e393ba-9e8f-4c44-920d-62b4aec5ddbc",
+                        "name": "Vortice Ethereum",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "aeafa433-b115-48f4-89b0-0788c5e9d79e",
+                        "name": "Oil Profit",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "bbc9fdc7-38e7-4ce6-93e7-df0127baac33",
+                        "name": "Immediate AI Related",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "72365592-5260-40ff-9ca0-5fa88612074e",
+                        "name": "AI Invest",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "0ed6b903-cb50-4d46-a882-8655e33b50a6",
+                        "name": "Immediate Peak Trading",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "6262ed4f-e089-45a9-a54b-6039cedd4bd5",
+                        "name": "Funnels",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "2e389157-92a6-46b9-8395-c3f4b350a44e",
+                        "name": "Immediate Apex",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "2581dfb1-6904-4938-95f1-263e4bf8cdda",
+                        "name": "Tesler",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "bd879ee9-874e-4f5c-9f74-940c4976c3e3",
+                        "name": "Immediate Edge",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "77ceffcf-77ee-4213-82a5-957e4ec5f35c",
+                        "name": "Amazon",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "f40be9ce-bdf4-4967-ac40-909f9a3aecc0",
+                        "name": "BtcBillionaire",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "8fc01724-ee4a-4bd4-9b62-074baeae8676",
+                        "name": "QuantumAI",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "498ebedc-bc02-4093-9a55-ddb4f18b83e4",
+                        "name": "BitQT",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "bb545557-7063-43ce-9aee-6d856d7006eb",
+                        "name": "Btc360AI",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "94f025c4-470d-4b4b-8c01-7b8d91b7f6f9",
+                        "name": "Bitcoin Vista",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "10aa2861-4b0f-4376-bbf8-b16f98105df8",
+                        "name": "Immediate Connect",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "ece26f11-9b9d-403d-a63a-23261cae4969",
+                        "name": "Trade App",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "66276258-b619-4d35-b094-9fdb2e50aef6",
+                        "name": "Chat GPT Trade",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "39e342b7-742a-4728-a495-e271852e1b44",
+                        "name": "BitcoinTrader",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "91fa41a2-a283-420a-981c-819f253a39b2",
+                        "name": "CryptoCapitale",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "c2cdbb06-b289-4cf2-a5f2-69942adfbee1",
+                        "name": "Gemini",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "2d8a5c1d-dffa-4297-8af7-22dfdc07dfa8",
+                        "name": "Quantum AI",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "18739519-fe09-42a3-8da4-56b838a2923a",
+                        "name": "OilProfit|BitQT",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "b5e8c4d7-d23f-48f8-a93b-8ef2a186f19f",
+                        "name": "Ecopetrol",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "19b8cba8-7894-4bbe-8952-4df2b7a05176",
+                        "name": "Antofagasta",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "5f36d9b3-040a-46b6-a45f-6360585e377b",
+                        "name": "Bitcoin Billionaire",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "19ba4cca-57c0-4307-bacd-288207d961fa",
+                        "name": "BITEVEX",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "d51eea18-cdda-440c-96a7-6f2cf0667542",
+                        "name": "OilProfit",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "4d380536-047c-4fdc-b875-511a7b58d54e",
+                        "name": "Falabella",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "e48271b9-cf9c-4cf5-ba73-12594e0731bc",
+                        "name": "BTC 360",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "e74628c0-7fab-4492-a70f-01320605bb3d",
+                        "name": "ChatGPT",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "2a56aab4-703c-4fd4-a93d-8c8bf700f80f",
+                        "name": "Quantum",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "350ac291-2db9-4bb5-9a49-3312b465f15d",
+                        "name": "BTC360 AI",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "64b1b7fd-d859-49e7-9235-2f3e22a82ff5",
+                        "name": "BitSoft",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "b3594eba-fd4c-45dc-aa2c-fae76141fabe",
+                        "name": "BitiCodes",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "298943ca-7258-4b1d-ab75-c336035b7bcc",
+                        "name": "Trading AI",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "39c208e8-f42c-4b7e-987f-8ec1d19d67ed",
+                        "name": "El Euro de Oro español",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "92669c21-44de-4386-9a68-094a0997ec61",
+                        "name": "BTC 360|ChatGPT",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "b8b0e475-2ff2-4d78-a67f-e4361b716f51",
+                        "name": "OilProfit|Bitcoin Billionaire",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "530991e5-e590-4628-aa02-4dacc7d8c294",
+                        "name": "Immediate Edge|Quantum|BTC360 AI|BitSoft|QuantumAI|Tesler|BitiCodes|Trading AI",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "7848317f-5478-44a0-b7aa-933cabb67aa4",
+                        "name": "Immediate Apex|Tesler|Immediate Edge|Amazon|BtcBillionaire|QuantumAI|BitQT|Btc360AI",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "e6707a0b-304a-413e-920e-6d44cb2ec166",
+                        "name": "mina de ouro portuguesa",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "ca98e5bf-522d-43b9-a7d4-0f20c70f7566",
+                        "name": "MOL",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "2b679767-8000-4da8-a16b-7553975af76c",
+                        "name": "Alvexo",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "5b4f7e46-6318-49de-93d6-30ad420d3ed2",
+                        "name": "Trader AI",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "83eead7b-ffc5-4a90-8b40-26ca47f51e8c",
+                        "name": "Immediate AI",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "fae6181b-394a-4edc-aefd-edd73b831061",
+                        "name": "Beatskai IQ",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "872bbe55-2291-415d-a0a3-027e27ff8abf",
+                        "name": "Immediate",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "0ac7ff1b-265c-4547-b99c-fa4583b4adeb",
+                        "name": "Dendexol",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "03bec429-c19b-4ca3-ad8a-5ecef2fbc744",
+                        "name": "Veridex",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "6aa8edad-a067-40bf-a207-c09cef250c11",
+                        "name": "Immediate Core Related",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "ce6e374c-117b-47c1-a32a-efe33e196b98",
+                        "name": "Sofort Verbindung AI",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "dd4e895f-2bee-4467-9b91-2670c0588dab",
+                        "name": "Bitcoin Buyer",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "28507933-b933-4bd5-ac9e-9085e9ed9cd9",
+                        "name": "SQM",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "a22edd0b-c1dc-4852-a272-6e67d6a6ee3a",
+                        "name": "Crypto Profit",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "03dfd2c2-53dc-46b1-8c20-91005ea54823",
+                        "name": "Bitnextese Band",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "71cf5476-6af4-443d-a33f-6c5dffe70155",
+                        "name": "BTC Bank",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "587e07e5-e78f-4d1a-a33e-0c51c0b560ec",
+                        "name": "Iberdrola",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "c3902645-fa2b-408c-b164-005d02577da2",
+                        "name": "AI Trading",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "6bf4975e-e4dc-4740-a9fc-e84ba8d69d06",
+                        "name": "AI + Immediate related funnels",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "c3e66297-05c9-471b-90a3-8467613c0f8d",
+                        "name": "Facebook",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "a961bce8-a1f1-418f-b3fb-1df8e88be2c9",
+                        "name": "Google",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "053b41c5-218e-4cd2-b914-2e46ec0425a6",
+                        "name": "Bing",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "e478458d-6e5f-4aa0-adfd-f32e171c197f",
+                        "name": "Google SEO",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "3c349654-1a1b-48d4-b8bc-5a9a32b1dbe9",
+                        "name": "SEO",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "401b4c73-dd4f-4f76-9df2-95e97f387264",
+                        "name": "FB",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "e032049f-146e-44c1-aa91-3e23a5f4f616",
+                        "name": "Google Display",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "b1501866-eadb-48f3-87a5-cf697ca462a9",
+                        "name": "Google DV 360",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "082b5797-3f94-4e19-aac7-9c43d0e78573",
+                        "name": "AI",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "6dafb1a0-a3c6-4dbe-bc19-e2a1ab3e3023",
+                        "name": "Immediate related",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "d53a1e64-c056-460f-90e4-ca46110f0f93",
+                        "name": "BTC",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "94685c1c-98fd-455d-b35c-19ac54b3f123",
+                        "name": "Cyber Starus AI",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "0f3c4e99-6974-448c-8cd6-1e100b6daf5a",
+                        "name": "Vortex Echo AI",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "3d2cbff8-fc07-4900-850b-c25d16f92c19",
+                        "name": "Phantom Finance",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "1fb22797-3198-46b8-ab85-967b7ed8dae5",
+                        "name": "The Quantum AI",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "503f3e44-d6d4-4bfa-b453-b67b4ad998bc",
+                        "name": "Millunero",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "a9273caf-978b-4462-a8cd-d7fb1baee2d3",
+                        "name": "Mostly Immediate AI",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "a901a3f0-1b96-42be-b80f-dab79cad79a3",
+                        "name": "Impuls Pro AI",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "fc0e959a-1f0c-4ef9-8ec0-958223e370ee",
+                        "name": "0.10",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "4c0780d7-5f30-49c6-aa25-cd52caf3c03a",
+                        "name": "BTC related funnels",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "b04d3211-9132-4fa7-9130-912f15c0cd33",
+                        "name": "BITCOINEER",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "e5592287-b1a7-4027-9713-08de91cf0a0f",
+                        "name": "Gemini2",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "180d6734-6279-4434-a778-8613ad79f152",
+                        "name": "Repsol",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "599fd4c7-004f-4919-b6f7-076fe407f9ff",
+                        "name": "IndiTex Capital",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "17201570-dc81-49b6-bb5a-333a1dc48a76",
+                        "name": "Bitcoin 360 AI",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "f7b48c4f-ad19-495c-8879-d2780e6187c2",
+                        "name": "GuardianAngel",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "ea4cc55a-82be-4274-af36-c8d1f3baeb19",
+                        "name": "Aramco",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "ea490995-a3f0-4192-a270-a16b9b9e278e",
+                        "name": "BtcEra",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "383aafe9-b4c5-4c1f-957d-671e4e3c8889",
+                        "name": "HB",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "d3bfc2c2-9298-4a9b-8012-0e56a75510d9",
+                        "name": "Vortex genesis",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "900c0772-a0be-47ef-999e-7cef21b78e7d",
+                        "name": "Bitcoin related funnels",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "1ce2483c-9ad2-4262-a945-8c8912e91417",
+                        "name": "Quantum mostly",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "bf657abf-e5ce-4b78-9450-f2e7d93f6d6f",
+                        "name": "mainly Trader",
+                        "color": "yellow",
+                        "description": null
+                    },
+                    {
+                        "id": "d41c0521-e61a-4c66-a078-ef6c6be91f1b",
+                        "name": "mainly Immediate",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "73b46819-d7f5-4878-a622-a37da314bf9e",
+                        "name": "GPT bot",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "b0bbee90-70b0-4819-8c87-6d2b5a089f27",
+                        "name": "Cripto Peru",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "c7247440-fc25-49b1-84e6-48be4cad4e86",
+                        "name": "Cripto Chile",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "297d37ef-02dd-4950-8bc6-18b82ee51253",
+                        "name": "Cripto Ecuador",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "dc71dd3b-017c-497e-b4dd-afc42a8b7a10",
+                        "name": "Nuclear electrica",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "fc6e4ccb-f0fa-487c-89ab-8c24a951265e",
+                        "name": "Nearest Edge",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "47604fc2-167c-4122-95c8-f825c97414b9",
+                        "name": "Azaliumbit mostly",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "0d9fbcf4-e437-4ef8-bdf5-58a3dcd2ef32",
+                        "name": "Crimson Flux AI",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "10c5d2ad-10b6-4725-841b-6f704e9209c0",
+                        "name": "AI related",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "04ceaeb7-6f4e-411f-99d4-c36d3c2d09b2",
+                        "name": "Petrom",
+                        "color": "default",
+                        "description": null
+                    },
+                    {
+                        "id": "b3bc1019-c181-4891-b14a-56d41fe70bec",
+                        "name": "Tokenizer360",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "804ba12a-75e1-433b-93b2-465eaa38e200",
+                        "name": "Phantom Finance Bot",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "27a242e5-c56d-4e7b-9872-9f6a9bd44604",
+                        "name": "Phantom Finance AI",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "44ee3cff-24e4-442e-b16d-14d59ef62e26",
+                        "name": "Neurixprofit",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "af07490c-aa88-4513-b366-d50f0bf155fc",
+                        "name": "Immediate bitwave",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "ccdfaa4c-77a2-4161-a76e-30bbe87a372c",
+                        "name": "BitGPT mainly",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "9758dfc6-f656-4e76-9efd-6870dd29743c",
+                        "name": "Tradershop AI",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "122cb4d3-3961-4963-af6e-777425e46578",
+                        "name": "Bitcoin GPT",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "1717353a-ffec-421d-8c36-eaef66e0453d",
+                        "name": "Big Money Rush",
+                        "color": "red",
+                        "description": null
+                    }
+                ]
+            }
+        },
+        "Sources": {
+            "id": "uvt%3D",
+            "name": "Sources",
+            "type": "multi_select",
+            "multi_select": {
+                "options": [
+                    {
+                        "id": "kr[T",
+                        "name": "FB",
+                        "color": "green",
+                        "description": null
+                    },
+                    {
+                        "id": "673191a2-1dff-47da-8c63-10906a115a26",
+                        "name": "Bing",
+                        "color": "gray",
+                        "description": null
+                    },
+                    {
+                        "id": "7ea4eb3f-ddaf-41c0-b1ec-8fb7f9d232be",
+                        "name": "Google SEO",
+                        "color": "pink",
+                        "description": null
+                    },
+                    {
+                        "id": "f1d3ed48-f5a4-4fbd-bbbc-1e8a9baa72ec",
+                        "name": "Google DV 360",
+                        "color": "orange",
+                        "description": null
+                    },
+                    {
+                        "id": "b7763b8b-221d-4913-b2f0-d6da4d719fad",
+                        "name": "Source",
+                        "color": "brown",
+                        "description": null
+                    },
+                    {
+                        "id": "62e1a87f-78bd-4315-b53a-c6078572447e",
+                        "name": "Native Ads",
+                        "color": "red",
+                        "description": null
+                    },
+                    {
+                        "id": "3ff89c8d-002d-4c32-8994-51fac70a34bd",
+                        "name": "Google",
+                        "color": "blue",
+                        "description": null
+                    },
+                    {
+                        "id": "29a7e429-1e38-40e1-9c1f-fc91a168f11d",
+                        "name": "Taboola",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "e0083186-a9ef-42b1-8045-26b89a1d03a2",
+                        "name": "MSN",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "9e73a181-3814-4a71-a31e-cd052fa422cc",
+                        "name": "SEO",
+                        "color": "purple",
+                        "description": null
+                    },
+                    {
+                        "id": "6fa333d3-5bd5-4f98-9040-7ac1be41742e",
+                        "name": "Google Display",
+                        "color": "green",
+                        "description": null
+                    }
+                ]
+            }
+        },
+        "CPL | Network | Selling ": {
+            "id": "vYLf",
+            "name": "CPL | Network | Selling ",
+            "type": "formula",
+            "formula": {
+                "expression": "if({{notion:block_property:UuiO:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}} == \"Y\", if(empty({{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), {{notion:block_property:JH_Q:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, {{notion:block_property:IzUg:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*{{notion:block_property:oJ~%3E:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}), \"\")"
+            }
+        },
+        "PPL% | Brand": {
+            "id": "w%3EJu",
+            "name": "PPL% | Brand",
+            "type": "formula",
+            "formula": {
+                "expression": "round({{notion:block_property:%40%7DYa:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}*1000)/1000"
+            }
+        },
+        "Main Contact": {
+            "id": "ysi%40",
+            "name": "Main Contact",
+            "type": "formula",
+            "formula": {
+                "expression": "first({{notion:block_property:sBio:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}})"
+            }
+        },
+        "GEO": {
+            "id": "%7BkQ~",
+            "name": "GEO",
+            "type": "formula",
+            "formula": {
+                "expression": " first(split(first(split({{notion:block_property:title:00000000-0000-0000-0000-000000000000:c20fc664-b86f-49e6-a9fe-449f88ea49ad}}, \"-\")), \" \"))"
+            }
+        },
+        "GEO-Funnel Code": {
+            "id": "title",
+            "name": "GEO-Funnel Code",
+            "type": "title",
+            "title": {}
+        }
+    },
+    "parent": {
+        "type": "page_id",
+        "page_id": "11b0e615-9a90-80f6-b745-e0dc9a0a39dc"
+    },
+    "url": "https://www.notion.so/11b0e6159a9080ce8fcdf3d53053cf31",
+    "public_url": null,
+    "archived": false,
+    "in_trash": false,
+    "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
+    "request_id": "a1c58fce-7898-470e-b46a-0a8ce508daa3"
+}
